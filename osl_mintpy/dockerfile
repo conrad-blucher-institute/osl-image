@@ -129,7 +129,7 @@ RUN python3 -m pip install \
     /opt/conda/envs/opensarlab_mintpy_recipe_book/bin/python -m ipykernel install --prefix /opt/conda/envs/opensarlab_mintpy_recipe_book --name opensarlab_mintpy_recipe_book && \
     mamba clean --yes --all && \
     chmod -R 755 /opt/conda/envs && \
-    chown -R jovyan:users /opt/conda/envs \
+    chown -R jovyan:users /opt/conda/envs
 
 ### GMTSAR
 ENV PATH=/usr/local/GMTSAR/bin:$PATH
